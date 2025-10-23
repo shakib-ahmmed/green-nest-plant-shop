@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 500" style="enable-background:new 0 0 1200 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#91AF5D;}
+	.st1{fill:#7FA15A;}
+	.st2{fill:#666666;}
+</style>
+<!-- 🌿 Leaf icon on the left -->
+<g>
+	<path class="st0" d="M250,0c0,0,44.5,109-146.3,182.1C0,221.9-79.7,323.8,15.4,481.1c7.9-70.4,41.7-225.5,186.9-260.9 c0,0-135.2,50.5-147.1,279.4c69.5,9.8,232.4,16.3,280.7-125.1C399.7,187.8,250,0,250,0z"/>
+	<path class="st1" d="M55.2,498.7C202.7,439.9,309.9,302,324.8,137.4C294.6,56.1,250,0,250,0s44.5,109-146.3,182.1 C0,221.9-79.7,323.8,15.4,481.1c7.9-70.4,41.7-225.5,186.9-260.9C202.2,220.3,67.5,270.7,55.2,498.7z"/>
+	<circle class="st0" cx="0.7" cy="172" r="13.8"/>
+	<circle class="st1" cx="44" cy="158.2" r="9.9"/>
+	<circle class="st1" cx="35.1" cy="64.7" r="24.6"/>
+	<circle class="st1" cx="110.9" cy="120.8" r="7.9"/>
+	<circle class="st1" cx="176.9" cy="76.5" r="22.6"/>
+</g>
+</svg>

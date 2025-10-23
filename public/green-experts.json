@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Tom Da Green",
+        "specialization": "Indoor Plant Care",
+        "image": "https://iandloveandyou.com/cdn/shop/articles/Pets_with_Indoor_Houseplants.png?v=1709235777&width=2800"
+    },
+    {
+        "id": 2,
+        "name": "Brian Leaf",
+        "specialization": "Succulents & Cacti",
+        "image": "https://www.thespruce.com/thmb/DWLfQWxR8ccf0efxgjaP1VtmFB8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/discourage-feral-cats-386479-hero-50eeb16535844e75853d52720baeaec5.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Clara Bloom",
+        "specialization": "Flowering Plants",
+        "image": "https://st2.depositphotos.com/1012859/48236/i/1600/depositphotos_482364854-stock-photo-black-white-cat-sitting-table.jpg"
+    },
+    {
+        "id": 4,
+        "name": "David Fern",
+        "specialization": "Tropical Plants",
+        "image": "https://st5.depositphotos.com/7131384/75162/i/1600/depositphotos_751620138-stock-photo-red-white-cat-lies-garden.jpg"
+    }
+]

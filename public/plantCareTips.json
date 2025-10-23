@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Watering Tips",
+        "description": "Most indoor plants prefer their soil to dry out slightly between waterings. Overwatering can lead to root rot, so always check the soil moisture before watering.",
+        "icon": "https://cdn.mos.cms.futurecdn.net/QWSXWDZy9dWaDj7J5skLu8-1024-80.jpg.webp"
+    },
+    {
+        "id": 2,
+        "title": "Sunlight Tips",
+        "description": "Place your plants near bright, indirect sunlight. Avoid direct harsh sunlight for sensitive plants as it can scorch the leaves.",
+        "icon": "https://cdn.mos.cms.futurecdn.net/sqgT7vTjGTxMpxD8XNDjdP-1024-80.jpg.webp"
+    },
+    {
+        "id": 3,
+        "title": "Fertilizing Tips",
+        "description": "Feed your plants with a balanced, water-soluble fertilizer once a month during the growing season. Reduce feeding in winter when growth slows down.",
+        "icon": "https://cdn.mos.cms.futurecdn.net/XjwwyVTgB5yPTknUcdMGuP-1024-80.jpg.webp"
+    }
+]
