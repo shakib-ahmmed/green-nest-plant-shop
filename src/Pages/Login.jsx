@@ -1,31 +1,39 @@
-import React, { use } from 'react';
+import React, { use, useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { AuthContext } from '../Provider/AuthProvider';
 
 const Login = () => {
-    const navigate = useNavigate();
-    const location = useLocation();
-    const from = location.state?.from || '/';
+    const [error, setError] = useState("");
+
     const { signIn } = use(AuthContext);
+    const location = useLocation();
+    console.log(location);
+    const navigate = useNavigate();
+    // const from = location.state?.from || '/';
+
 
     const handleLogin = (e) => {
         e.preventDefault();
         const form = e.target;
         const email = form.email.value;
-
         const password = form.password.value;
         console.log({ email, password });
         signIn()
             .then((result) => {
                 const user = result.user;
+                console.log(user);
+                navigate(`${location.state ? location.state : "/"}`)
             }).catch((error) => {
                 const errorCode = error.code;
-                const errorMassage = error.code;
-                alert(errorCode, errorMassage);
+                // const errorMassage = error.code;
+                // alert(errorCode, errorMassage);
+                setError(errorCode)
             });
 
-        localStorage.setItem("userToken", "token");
-        navigate(from, { replace: true });
+
+
+        // localStorage.setItem("userToken", "token");
+        // navigate(form, { replace: true });
     };
 
     return (

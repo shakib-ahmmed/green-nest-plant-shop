@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection";
 import PlantCard from "../components/PlantCard";
 import { Link } from "react-router-dom";
 import { PlantContext } from "../Provider/PlantContext";
+import Loading from "./Loading";
 
 const Home = () => {
     const { plants, loading } = useContext(PlantContext);
@@ -21,7 +22,7 @@ const Home = () => {
             .then(data => setGreenExperts(data));
     }, []);
 
-    if (loading) return <p className="text-center mt-10">Loading plants...</p>;
+    if (loading) return <Loading />
 
     return (
         <div>

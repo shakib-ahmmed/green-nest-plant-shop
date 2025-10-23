@@ -2,12 +2,13 @@ import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import PlantCard from "../components/PlantCard";
 import { PlantContext } from "../Provider/PlantContext";
+import Loading from "./Loading";
 
 const Plant = () => {
     const { plants, loading } = useContext(PlantContext);
     const [search, setSearch] = useState("");
 
-    if (loading) return <p className="text-center mt-10">Loading plants...</p>;
+    if (loading) return <Loading />
 
     const term = search.trim().toLowerCase();
     const searchedPlants = term

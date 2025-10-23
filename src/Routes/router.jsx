@@ -7,6 +7,7 @@ import AuthLayout from "../Layout/AuthLayout";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import PlantDetails from "../Pages/PlantDetails";
+import PrivateRouter from "../Layout/PrivateRouter";
 
 
 
@@ -32,7 +33,9 @@ const router = createBrowserRouter([
       },
       {
         path: '/plant-details/:plantId',
-        element: <PlantDetails />,
+        element: <PrivateRouter>
+          <PlantDetails />,
+        </PrivateRouter>,
         loader: async () => {
           const res = await fetch("/plant-data.json");
           if (!res.ok) throw new Error("Failed to load plant data");
