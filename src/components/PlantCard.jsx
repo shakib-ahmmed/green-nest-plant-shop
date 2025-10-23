@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 const PlantCard = ({ plant }) => {
-    const { plantId, plantName, category, price, rating, image } = plant;
+    const { plantName, category, price, rating, image } = plant;
 
     const renderStars = (rating) => {
         const fullStars = Math.floor(rating);
@@ -33,11 +33,12 @@ const PlantCard = ({ plant }) => {
 
                 {/* Button */}
                 <Link
-                    to={`/plantdetails${plantId}`}
+                    to={`/plant-details/${plant.plantId}`}
                     className="mt-auto text-center bg-green-500 hover:bg-green-600 text-white font-medium py-2 rounded-md"
                 >
                     View Details
                 </Link>
+
             </div>
         </div>
     );

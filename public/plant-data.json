@@ -7,7 +7,7 @@
         "rating": 4.8,
         "availableStock": 10,
         "careLevel": "Easy",
-        "description": "A hardy plant that purifies indoor air and thrives in low light.",
+        "description": "The Snake Plant, scientifically known as Sansevieria, is a strikingly resilient houseplant celebrated for its air-purifying qualities and architectural beauty. Its long, upright leaves, often variegated with shades of green and silver, add a modern touch to any space. This low-maintenance plant thrives in a wide range of conditions, including low light and irregular watering, making it ideal for beginners or those with busy lifestyles. Not only does it filter indoor air by removing toxins, but it also releases oxygen at night, making it a perfect bedroom companion. Place it in a corner of your living room, office, or bedroom for a touch of greenery that requires minimal effort to keep vibrant.",
         "image": "https://myuncommonsliceofsuburbia.com/wp-content/uploads/2023/07/snake-plant-4985304_1280-682x1024.jpg",
         "providerName": "UrbanGreen Studio"
     },
@@ -19,7 +19,7 @@
         "rating": 4.5,
         "availableStock": 5,
         "careLevel": "Medium",
-        "description": "A popular houseplant with large, glossy leaves that brighten any room.",
+        "description": "The Fiddle Leaf Fig, or Ficus lyrata, is a statement-making houseplant cherished for its large, glossy, violin-shaped leaves that bring a touch of elegance to any interior. This plant’s bold foliage and sculptural form make it a favorite among interior designers and plant enthusiasts alike. It prefers bright, indirect light and consistent care, including regular watering and occasional leaf cleaning to maintain its lustrous appearance. Perfect for a sunny corner in your living room or a stylish office space, the Fiddle Leaf Fig adds a vibrant, tropical vibe. While it requires a bit more attention than low-maintenance plants, its stunning visual impact makes it well worth the effort.",
         "image": "https://cdn.shopify.com/s/files/1/0062/8532/8445/products/Bambino_FIddleLeafFIg_3_BB.jpg?v=1641843293",
         "providerName": "Green Haven"
     },
@@ -31,7 +31,7 @@
         "rating": 4.7,
         "availableStock": 8,
         "careLevel": "Easy",
-        "description": "An elegant plant that blooms white flowers and thrives in shade.",
+        "description": "The Peace Lily, or Spathiphyllum, is an elegant and versatile houseplant known for its graceful white blooms and lush, dark green leaves. This plant thrives in low to moderate light, making it an excellent choice for shaded corners or rooms with limited sunlight. Its air-purifying qualities help improve indoor air quality, making it a healthy addition to homes and offices. The Peace Lily is relatively easy to care for, requiring regular watering to keep its soil moist but not soggy. Its ability to bloom periodically adds a touch of sophistication, making it perfect for tabletops, desks, or as a floor plant in a decorative pot. A must-have for anyone seeking beauty and functionality in their indoor greenery.",
         "image": "https://images.unsplash.com/photo-1595105263641-7b003e8c1873?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "providerName": "Nature Nook"
     },
@@ -43,7 +43,7 @@
         "rating": 4.6,
         "availableStock": 12,
         "careLevel": "Easy",
-        "description": "Known for its air-purifying qualities and attractive arching leaves.",
+        "description": "The Spider Plant, or Chlorophytum comosum, is a beloved houseplant renowned for its air-purifying abilities and charming, arching leaves that cascade gracefully from its center. Its green and white striped foliage adds a playful yet elegant touch to any space. This plant is incredibly forgiving, thriving in a variety of lighting conditions, from low to bright indirect light, and requiring only moderate watering. Spider Plants are also known for producing 'pups' or baby plants, which can be propagated easily, making them a fun choice for plant enthusiasts. Ideal for hanging baskets, shelves, or as a tabletop centerpiece, this plant is perfect for beginners and seasoned plant lovers alike looking to enhance their indoor air quality.",
         "image": "https://images.unsplash.com/photo-1621258169641-7a6e1141c2c3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "providerName": "Leaf & Root"
     },
@@ -55,7 +55,7 @@
         "rating": 4.9,
         "availableStock": 6,
         "careLevel": "Low",
-        "description": "A durable plant that tolerates low light and irregular watering.",
+        "description": "The ZZ Plant, or Zamioculcas zamiifolia, is a tough and stylish houseplant that’s perfect for those seeking low-maintenance greenery. Its glossy, dark green leaves grow in a rosette pattern, giving it a sleek, modern look that complements any decor. This plant is a champion at tolerating neglect, thriving in low light conditions and requiring infrequent watering—sometimes as little as once a month. Its ability to store water in its rhizomes makes it drought-tolerant, ideal for busy individuals or those new to plant care. Place it in a low-light corner of your home, office, or apartment to add a touch of elegance without the hassle of demanding upkeep.",
         "image": "https://images.unsplash.com/photo-1596205739660-3949987814b7?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "providerName": "Evergreen Supply"
     },
@@ -67,7 +67,7 @@
         "rating": 4.4,
         "availableStock": 14,
         "careLevel": "Easy",
-        "description": "A succulent with soothing gel, perfect for sunny windowsills.",
+        "description": "Aloe Vera is a classic succulent known for its fleshy, serrated leaves filled with a soothing gel that has been used for centuries for its skin-healing properties. Its rosette of thick, green leaves with a hint of gray adds a sculptural element to any space. This plant thrives in bright, indirect light and requires minimal watering, making it perfect for sunny windowsills or well-lit desks. Its drought-tolerant nature means it can go weeks without water, ideal for those with busy schedules. Aloe Vera not only enhances your home’s aesthetic but also serves as a natural first-aid kit, making it a practical and attractive addition to any plant collection.",
         "image": "https://images.unsplash.com/photo-1547078351-4d375086d790?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "providerName": "BotaniCo"
     },
@@ -79,7 +79,7 @@
         "rating": 4.7,
         "availableStock": 7,
         "careLevel": "Medium",
-        "description": "A tropical beauty with large, split leaves. Perfect for adding a jungle vibe indoors.",
+        "description": "The Monstera Deliciosa, often called the Swiss Cheese Plant, is a tropical icon known for its large, heart-shaped leaves with distinctive natural splits and holes. This plant’s bold, jungle-like appearance makes it a stunning focal point in any room, from living spaces to modern offices. It thrives in bright, indirect light and prefers consistently moist but well-drained soil, requiring a bit more attention than low-maintenance plants. With proper care, its leaves grow impressively large, creating a lush, tropical ambiance. Perfect for plant enthusiasts looking to make a bold statement, the Monstera Deliciosa brings a touch of the rainforest to your indoor space.",
         "image": "https://images.unsplash.com/photo-1601268065842-be8acb418a03?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "providerName": "The Green Corner"
     },
@@ -91,7 +91,7 @@
         "rating": 4.3,
         "availableStock": 9,
         "careLevel": "Medium",
-        "description": "A lush fern with feathery leaves that thrives in humid environments.",
+        "description": "The Boston Fern, or Nephrolepis exaltata, is a lush, feathery houseplant that adds a touch of softness and elegance to any space. Its vibrant green fronds cascade beautifully, making it an ideal choice for hanging baskets, shelves, or elevated plant stands. This fern thrives in humid environments and prefers indirect light, mimicking its natural forest floor habitat. Regular misting and consistent watering keep its foliage vibrant, though it’s forgiving of occasional lapses. Perfect for bathrooms, kitchens, or shaded patios, the Boston Fern brings a refreshing, natural vibe to your home while helping to humidify the air.",
         "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "providerName": "Leaf & Root"
     },
@@ -103,7 +103,7 @@
         "rating": 4.5,
         "availableStock": 11,
         "careLevel": "Easy",
-        "description": "A symbol of good luck and fortune, perfect for desks and windowsills.",
+        "description": "The Jade Plant, or Crassula ovata, is a charming succulent often associated with good luck and prosperity. Its thick, oval-shaped leaves and sturdy, tree-like structure give it a bonsai-like appearance, making it a delightful addition to desks, windowsills, or tabletops. This plant thrives in bright light and requires infrequent watering, thanks to its ability to store water in its leaves. Its low-maintenance nature makes it perfect for beginners or those seeking a compact yet striking plant. The Jade Plant’s timeless appeal and symbolic meaning make it a thoughtful gift or a stylish accent for any home or office.",
         "image": "https://images.unsplash.com/photo-1596707325243-7f1c1f5d6f19?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "providerName": "UrbanGreen Studio"
     },
@@ -115,7 +115,7 @@
         "rating": 4.6,
         "availableStock": 4,
         "careLevel": "Medium",
-        "description": "Known for its bold, striped leaves and movement in response to light.",
+        "description": "The Calathea Orbifolia is a mesmerizing houseplant known for its large, round leaves adorned with delicate, silver-green stripes. This plant’s foliage moves subtly throughout the day, folding up at night and unfurling in the morning, adding a dynamic element to your space. It thrives in medium to bright indirect light and prefers high humidity, making it ideal for bathrooms or kitchens with good airflow. Regular watering and occasional misting keep its leaves vibrant and healthy. Perfect for plant lovers who enjoy a bit of drama in their decor, the Calathea Orbifolia’s bold patterns make it a stunning centerpiece for any indoor jungle.",
         "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "providerName": "Green Haven"
     },
@@ -127,7 +127,7 @@
         "rating": 4.8,
         "availableStock": 15,
         "careLevel": "Easy",
-        "description": "A fast-growing, trailing plant that's perfect for beginners.",
+        "description": "The Pothos Golden, or Epipremnum aureum, is a versatile and fast-growing houseplant loved for its heart-shaped, variegated leaves that display vibrant green and golden-yellow hues. Its trailing vines make it perfect for hanging baskets, shelves, or as a cascading accent in any room. This plant is incredibly low-maintenance, thriving in low to bright indirect light and requiring watering only when the soil feels dry. Its resilience and ability to adapt to various environments make it a top choice for beginners or anyone looking to add effortless greenery to their space. The Pothos Golden’s lush, trailing growth brings a lively, natural charm to homes and offices alike.",
         "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "providerName": "Nature Nook"
     },
@@ -139,7 +139,7 @@
         "rating": 4.4,
         "availableStock": 10,
         "careLevel": "Low",
-        "description": "An easy-care plant that tolerates low light and helps clean indoor air.",
+        "description": "The Chinese Evergreen, or Aglaonema, is a stunning and resilient houseplant known for its vibrant, variegated leaves and exceptional air-purifying abilities. Its foliage, often splashed with shades of green, silver, and pink, adds a pop of color to any room. This plant is a fantastic choice for low-light environments, such as offices or shaded corners, and requires minimal care, with watering needed only when the soil is dry to the touch. Its tolerance for neglect and adaptability make it perfect for beginners or those seeking a low-maintenance yet visually striking plant. Place it in a stylish pot to enhance your home’s decor while enjoying cleaner indoor air.",
         "image": "https://images.unsplash.com/photo-1616428610543-9884e8a0a866?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "providerName": "BotaniCo"
     }

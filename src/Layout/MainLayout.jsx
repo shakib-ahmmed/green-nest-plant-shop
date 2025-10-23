@@ -13,7 +13,7 @@ const MainLayout = () => {
 
             <Navbar />
 
-            <div className='flex-1 max-w-screen-2x1 w-full '>
+            <div className='flex-1 w-11/12 mx-auto py-5 '>
                 <Outlet></Outlet>
             </div>
 

@@ -13,6 +13,7 @@ import PlantDetails from "../Pages/PlantDetails";
 
 
 const router = createBrowserRouter([
+
   {
     path: '/',
     element: <MainLayout />,
@@ -29,6 +30,15 @@ const router = createBrowserRouter([
         path: '/myprofile',
         element: <MyProfile />
       },
+      {
+        path: '/plant-details/:plantId',
+        element: <PlantDetails />,
+        loader: async () => {
+          const res = await fetch("/plant-data.json");
+          if (!res.ok) throw new Error("Failed to load plant data");
+          return res.json();
+        },
+      },
     ],
   },
   {
@@ -44,10 +54,6 @@ const router = createBrowserRouter([
         element: <Register />
       },
     ],
-  },
-  {
-    path: '/plantdetails/:plantId',
-    element: <PlantDetails />
   },
   {
     path: '*',
