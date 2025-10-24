@@ -4,6 +4,7 @@ import PlantCard from "../components/PlantCard";
 import { Link } from "react-router-dom";
 import { PlantContext } from "../Provider/PlantContext";
 import Loading from "./Loading";
+import PlantOfTheWeek from "../components/PlantOfTheWeek";
 
 const Home = () => {
     const { plants, loading } = useContext(PlantContext);
@@ -98,6 +99,11 @@ const Home = () => {
                             </div>
                         ))}
                     </div>
+
+                    {/* Plant of the week section */}
+
+                    <PlantOfTheWeek />
+
                 </div>
             </div>
         </div>
