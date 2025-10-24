@@ -19,14 +19,14 @@ const PlantDetails = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        toast.success("Consultation booked successfully!");
+        toast.success("Consultation booked successfully");
         setFormData({ name: "", email: "" });
     };
 
     return (
-        <div className="w-8/12 mx-auto py-5 p-6 space-y-8">
+        <div className="lg:w-10/12 mx-auto py-5 p-6 space-y-8">
 
-            {/* Plant Info */}
+            {/* Plant Details */}
 
             <div className="bg-gray-100  p-6 rounded-lg shadow flex flex-col md:flex-row gap-8">
 
@@ -54,10 +54,6 @@ const PlantDetails = () => {
                     </div>
                 </div>
             </div>
-
-
-            {/* Book Consultation Form */}
-
             <div className="bg-gray-100 p-6 rounded-lg shadow">
                 <h2 className="text-2xl font-semibold mb-4">Book Consultation</h2>
                 <form onSubmit={handleSubmit} className="space-y-4 max-w-md">

@@ -1,6 +1,7 @@
 import React, { use } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import { UserIcon } from "lucide-react";
 
 const Navbar = () => {
     const { user, logOut } = use(AuthContext);
@@ -10,7 +11,7 @@ const Navbar = () => {
                 alert("logout susscefully")
 
             }).catch((error) => {
-                console.log(error)
+
             });
     };
 
@@ -70,23 +71,32 @@ const Navbar = () => {
                             </li>
                         </NavLink>
                     </ul>
-                    <div className="text-2xl text-amber-600">
-                        {user && user.email}
-                    </div>
+
                 </div>
-                <div className="navbar-end">
-                    {
-                        user ? (
-                            <button onClick={handleLogOut} className="btn btn-primary px-10">LogOut</button>
-                        ) : (
-                            <Link
-                                to="/auth/login"
-                                className="btn bg-[#075a12] text-white font-semibold w-[145px] h-[45px] hover:scale-105 transition ease-in-out"
-                            >
-                                Login
-                            </Link>
-                        )}
+                <div className="navbar-end flex items-center gap-3">
+                    {user ? (
+                        <button
+                            onClick={handleLogOut}
+                            className="btn bg-[#075a12] text-white font-semibold w-[130px] h-[50px] flex items-center gap-2 px-3 hover:scale-105 transition"
+                        >
+                            <img
+                                className="w-10 h-10 rounded-full object-cover"
+                                src={user.photoURL || UserIcon}
+                                alt="User"
+                            />
+                            LogOut
+                        </button>
+                    ) : (
+                        <Link
+                            to="/auth/login"
+                            className="btn bg-[#075a12] text-white font-semibold w-[145px] h-[45px] hover:scale-105 transition ease-in-out flex items-center justify-center"
+                        >
+                            Login
+                        </Link>
+                    )}
                 </div>
+
+
             </div>
 
         </div >

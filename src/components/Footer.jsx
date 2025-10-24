@@ -10,20 +10,21 @@ const Footer = () => {
                         <img className="w-12 h-12" src="/logo.png" alt="logo" />
                         <div className="flex flex-col">
                             <span className="font-bold text-2xl text-green-500 leading-tight">GREEN NEST</span>
-                            <span className="text-m tracking-widest text-black">  PLANT SHOP</span>
+                            <span className="text-m tracking-widest text-black">PLANT SHOP</span>
                         </div>
                     </Link>
-                    <nav className='flex flex-col justify-center pt-5 lg:justify-end gap-4'>
-                        <h2 className="footer-title text-white">Quick Links</h2>
-                        <div className="grid grid-flow-col gap-4">
-                            <ul className="flex gap-4">
-                                <li><a href="" className="hover:text-green-600">About</a></li>
-                                <li><a href="" className="hover:text-green-600">Contact</a></li>
-                                <li><a href="/" className="hover:text-green-600">Privacy Policy</a></li>
-                            </ul>
-                        </div>
+
+                    <nav className="flex flex-col justify-center pt-5 lg:justify-end gap-4">
+                        <h2 className="footer-title text-white text-center lg:text-left">Quick Links</h2>
+
+                        <ul className="flex flex-col items-center lg:items-start gap-2 sm:gap-4 lg:flex-row">
+                            <li><a href="" className="hover:text-green-600">About</a></li>
+                            <li><a href="" className="hover:text-green-600">Contact</a></li>
+                            <li><a href="/" className="hover:text-green-600">Privacy Policy</a></li>
+                        </ul>
                     </nav>
                 </aside>
+
                 <nav className='flex flex-col justify-center pt-5 lg:justify-end gap-4'>
                     <h6 className="footer-title">Social Links</h6>
                     <div className="grid grid-flow-col gap-4">

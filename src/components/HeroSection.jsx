@@ -21,7 +21,7 @@ const HeroSectionMotion = () => {
     }, []);
 
     return (
-        <section className="relative w-full h-[80vh]  pt-5 overflow-hidden flex justify-center items-center">
+        <section className="relative w-full h-[80vh]  pt-10 overflow-hidden flex justify-center items-center">
             {slides.map((slide, i) => (
                 <motion.img
                     key={i}

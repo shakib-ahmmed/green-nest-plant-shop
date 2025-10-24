@@ -1,37 +1,65 @@
-import { Link, Navigate, } from 'react-router-dom';
-import React, { use } from 'react';
+
+import { Link, useNavigate } from 'react-router-dom';
+import React, { useState, useContext } from 'react';
+
 import { AuthContext } from '../Provider/AuthProvider';
+import { toast } from 'react-toastify';
+
+
+
+
+
+
+
 
 const Register = () => {
-    const { createUser, setUser } = use(AuthContext);
+    const { createUser, setUser, updateUser } = useContext(AuthContext);
+    const [nameError, setNameError] = useState("");
 
 
+    const navigate = useNavigate();
 
     const handleRegister = (e) => {
         e.preventDefault();
 
-
         const form = e.target;
         const name = form.name.value;
+
         const photo = form.photo.value;
+
         const email = form.email.value;
         const password = form.password.value;
-        console.log({ name, photo, email, password });
+
+        if (name.length < 5) {
+            setNameError("Name should be more than 5 characters");
+
+            toast.warn("Name should be more than 5 characters!");
+            return;
+        } else {
+            setNameError("");
+        }
+
 
         createUser(email, password)
-            .then(result => {
+            .then((result) => {
                 const user = result.user;
-                setUser(user);
-                form.reset();
-                Navigate('/');
+                updateUser({ displayName: name, photoURL: photo })
+                    .then(() => {
+                        setUser({ ...user, displayName: name, photoURL: photo });
+                        toast.success("Registration Successful");
+                        navigate('/');
+                    })
+
+
+                    .catch(() => {
+                        setUser(user);
+                        toast.info("User created but profile update failed.");
+                    });
             })
-            .catch(error => {
-                const errorCode = error.code;
-                const errormassage = error.message;
-                alert(errormassage)
+
+            .catch((error) => {
+                toast.error(`❌ ${error.message}`);
             });
-
-
     };
 
     return (
@@ -40,15 +68,17 @@ const Register = () => {
                 <h2 className='text-center font-semibold text-2xl py-4'>
                     Register Your Account
                 </h2>
-                <form className="card-body">
-                    <fieldset onSubmit={handleRegister} className="fieldset">
+                <form onSubmit={handleRegister} className="card-body">
+                    <fieldset className="fieldset">
                         <label className="label">Your Name</label>
                         <input
                             name='name'
                             type="text"
                             className="input"
                             placeholder="Name"
-                            required />
+                            required
+                        />
+                        {nameError && <p className='text-red-600'>{nameError}</p>}
 
                         <label className="label">Photo URL</label>
                         <input
@@ -56,7 +86,8 @@ const Register = () => {
                             type="text"
                             className="input"
                             placeholder="Photo URL"
-                            required />
+                            required
+                        />
 
                         <label className="label">Email</label>
                         <input
@@ -64,8 +95,8 @@ const Register = () => {
                             type="email"
                             className="input"
                             placeholder="Email"
-                            required />
-
+                            required
+                        />
 
                         <label className="label">Password</label>
                         <input
@@ -73,11 +104,12 @@ const Register = () => {
                             type="password"
                             className="input"
                             placeholder="Password"
-                            required />
+                            required
+                        />
 
-
-
-                        <button type='submit' className="btn btn-neutral mt-4 w-full">Register</button>
+                        <button type='submit' className="btn btn-neutral mt-4 w-full">
+                            Register
+                        </button>
 
                         <p className='font-semibold text-center pt-5'>
                             Already have an account?
