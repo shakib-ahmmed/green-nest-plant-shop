@@ -33,6 +33,7 @@ const MyProfile = () => {
             console.error(error);
             toast.error("Failed to update profile!", { position: "top-center" });
         }
+
     };
 
 
