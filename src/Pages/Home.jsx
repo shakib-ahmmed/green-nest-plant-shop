@@ -38,7 +38,7 @@ const Home = () => {
                 <h1 className="text-[48px] font-bold mt-10">All Plants</h1>
                 <p className="text-gray-500 text-[20px] mb-6">Explore Your Loved Plants</p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-10 px-4 lg:px-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 overflow-hidden gap-6 pt-10 px-4 lg:px-20">
                     {featuredPlants.map((plant) => (
                         <PlantCard key={plant.plantId} plant={plant} />
                     ))}
