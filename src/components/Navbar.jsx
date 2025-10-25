@@ -87,24 +87,24 @@ const Navbar = () => {
                             <div className="relative">
                                 <button
                                     onClick={() => setDropdownOpen(!dropdownOpen)}
-                                    className="flex items-center gap-2 p-2 rounded-full hover:scale-105 transition"
+                                    className="flex items-center gap-2 p-2 hover:cursor-default rounded-full hover:scale-105 transition"
                                 >
                                     {user.photoURL ? (
-                                        <img className="w-10 h-10 rounded-full object-cover" src={user.photoURL} alt="User" />
+                                        <img className="lg:w-15 lg:h-15 rounded-full  object-cover" src={user.photoURL} alt="User" />
                                     ) : (
                                         <UserIcon className="w-10 h-10 text-gray-500" />
                                     )}
                                 </button>
 
                                 {dropdownOpen && (
-                                    <div className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg overflow-hidden z-50">
+                                    <div className="absolute right-0 mt-2 w-55 bg-white shadow-lg rounded-xl overflow-hidden z-50">
                                         <div className="px-4 py-3 border-b">
-                                            <p className="text-gray-800 font-semibold">{user.displayName || "User"}</p>
-                                            <p className="text-gray-500 text-sm">{user.email}</p>
+                                            <p className="text-gray-900 font-semibold">{user.displayName || "User"}</p>
+                                            <p className="text-gray-900 text-sm">{user.email}</p>
                                         </div>
                                         <button
                                             onClick={handleLogOut}
-                                            className="w-full text-left px-4 py-2 hover:bg-gray-100 text-gray-800 font-medium"
+                                            className="w-full text-left px-4 py-2 hover:cursor hover:bg-[#075a12] text-gray-800 hover:text-gray-100 font-medium"
                                         >
                                             Logout
                                         </button>
@@ -135,7 +135,7 @@ const Navbar = () => {
                                 </button>
 
                                 {dropdownOpen && (
-                                    <ul className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg overflow-hidden z-50 text-gray-800">
+                                    <ul className="absolute right-0 mt-2 w-50 bg-gray-300 shadow-lg rounded-lg overflow-hidden z-50 text-gray-800">
                                         <li>
                                             <NavLink
                                                 to="/MyProfile"
@@ -148,8 +148,7 @@ const Navbar = () => {
                                         <li>
                                             <button
                                                 onClick={handleLogOut}
-                                                className="w-full text-left px-4 py-2 hover:bg-gray-100"
-                                            >
+                                                className="w-full text-left px-4 py-2  hover:cursor hover:bg-[#075a12] text-gray-800 hover:text-gray-100">
                                                 Logout
                                             </button>
                                         </li>
