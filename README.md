@@ -1,37 +1,47 @@
-# Green Nest
+# 🌿 Green Nest
 
-Hello everyone! Welcome to **Green Nest**, a website for plant lovers and enthusiasts.
-I built this site as part of my web development journey, and I’m super excited to share it with everyone.  
-Explore beautiful plants, learn more about them, and enjoy a smooth, interactive experience!  
-
-
-
-
-## Features
-
-- Browse and explore a variety of plants  
-- User authentication with Google Sign-In
-- Responsive design for desktop & mobile  
-- Beautiful UI built with Tailwind CSS and DaisyUI*
-- Toast notifications for actions using React Toast 
--Firebase for deployment 
-
+Hello and welcome to **Green Nest**, a modern website for **plant lovers and enthusiasts**.  
+Built as part of my web development journey, this project allows users to explore a variety of plants, learn about them, and enjoy a smooth, interactive experience.
 
 ---
 
+## 🔗 Live Demo
 
-## Technologies Used
-
-- React & React Router  
-- HTML, JavaScript  
-- Tailwind CSS & DaisyUI  
-- Firebase  
-- Google Auth  
-- React Toast  
-- Tailwind Icons  
+[Explore Green Nest](https://green-nest-cacc0.web.app/)
 
 ---
 
-## Live Link
+## ⚡ Features
 
-https://green-nest-cacc0.web.app/
+- **Browse Plants**: Explore a wide variety of plants with details.  
+- **User Authentication**: Sign in using Google authentication.  
+- **Responsive Design**: Optimized for desktop, tablet, and mobile.  
+- **Beautiful UI**: Designed with **Tailwind CSS** and **DaisyUI**.  
+- **Interactive Toasts**: Provides notifications for user actions using React Toastify.  
+- **Firebase Hosting**: Deployed for fast and reliable access.  
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React.js, React Router, HTML, JavaScript  
+- **Styling**: Tailwind CSS, DaisyUI, Tailwind Icons  
+- **Backend / Services**: Firebase for hosting and Google Authentication  
+- **Utilities**: React Toastify for notifications  
+
+---
+
+## 📝 Dependencies
+
+- `react`, `react-dom`, `react-router-dom`  
+- `firebase`  
+- `react-toastify`  
+- `tailwindcss`, `daisyui`  
+
+---
+
+## 🚀 Local Setup
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/shakib-ahmmed/plant
